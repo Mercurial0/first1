@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  background: #f95c29; }
+  header ul {
+    width: 100%;
+    height: 1.825rem;
+    display: flex;
+    justify-content: space-between;
+    height: 1.825rem;
+    line-height: 1.825rem;
+    font-size: 0.775rem;
+    padding: 0 0.625rem; }
+    header ul li {
+      width: 33%; }
+      header ul li:nth-of-type(1) a i {
+        font-size: 1.45rem;
+        color: #fff; }
+      header ul li:nth-of-type(2) {
+        text-align: center;
+        color: #fff; }
+  header div {
+    width: 100%;
+    height: 3.125rem; }
+    header div img {
+      width: 100%; }
+
+.content .ul_list1 {
+  width: 100%; }
+  .content .ul_list1 li {
+    padding-left: 0.95rem;
+    width: 100%; }
+    .content .ul_list1 li:nth-of-type(1) {
+      height: 1.7rem;
+      background: #F5F5F5;
+      line-height: 1.7rem;
+      font-size: 0.625rem;
+      color: #aaa;
+      border-bottom: 0.05rem solid #EBEBEB; }
+    .content .ul_list1 li:nth-of-type(2) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list1 li:nth-of-type(2) p {
+        color: #2b2b2b; }
+      .content .ul_list1 li:nth-of-type(2) input {
+        width: 5.3rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list1 li:nth-of-type(2) i {
+        color: #ececec; }
+    .content .ul_list1 li:nth-of-type(3) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list1 li:nth-of-type(3) p {
+        color: #2b2b2b; }
+      .content .ul_list1 li:nth-of-type(3) input {
+        width: 8.3rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list1 li:nth-of-type(3) i {
+        color: #ececec; }
+.content .ul_list2 {
+  width: 100%; }
+  .content .ul_list2 li {
+    padding-left: 0.95rem;
+    width: 100%; }
+    .content .ul_list2 li:nth-of-type(1) {
+      height: 1.7rem;
+      background: #F5F5F5;
+      line-height: 1.7rem;
+      font-size: 0.625rem;
+      color: #aaa;
+      border-bottom: 0.05rem solid #EBEBEB; }
+    .content .ul_list2 li:nth-of-type(2) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list2 li:nth-of-type(2) p {
+        color: #2b2b2b; }
+      .content .ul_list2 li:nth-of-type(2) input {
+        width: 3.3rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list2 li:nth-of-type(2) i {
+        color: #ececec; }
+    .content .ul_list2 li:nth-of-type(3) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list2 li:nth-of-type(3) p {
+        color: #2b2b2b; }
+      .content .ul_list2 li:nth-of-type(3) input {
+        width: 4.5rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list2 li:nth-of-type(3) i {
+        color: #ececec; }
+    .content .ul_list2 li:nth-of-type(4) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list2 li:nth-of-type(4) p {
+        color: #2b2b2b; }
+      .content .ul_list2 li:nth-of-type(4) input {
+        width: 7.8rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list2 li:nth-of-type(4) i {
+        color: #ececec; }
+    .content .ul_list2 li:nth-of-type(5) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list2 li:nth-of-type(5) p {
+        color: #2b2b2b; }
+      .content .ul_list2 li:nth-of-type(5) input {
+        width: 7.8rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list2 li:nth-of-type(5) i {
+        color: #ececec; }
+.content .ul_list3 {
+  width: 100%; }
+  .content .ul_list3 li {
+    padding-left: 0.95rem;
+    width: 100%; }
+    .content .ul_list3 li:nth-of-type(1) {
+      height: 1.7rem;
+      background: #F5F5F5;
+      line-height: 1.7rem;
+      border-bottom: 0.05rem solid #EBEBEB; }
+      .content .ul_list3 li:nth-of-type(1) span:nth-of-type(1) {
+        font-size: 0.625rem;
+        color: #aaa; }
+      .content .ul_list3 li:nth-of-type(1) span:nth-of-type(2) {
+        font-size: 0.4rem;
+        color: orangered; }
+    .content .ul_list3 li:nth-of-type(2) {
+      height: 1.85rem;
+      line-height: 1.85rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.05rem solid #EBEBEB;
+      font-size: 0.625rem;
+      padding-right: 0.625rem; }
+      .content .ul_list3 li:nth-of-type(2) p {
+        color: #2b2b2b; }
+      .content .ul_list3 li:nth-of-type(2) input {
+        width: 5.8rem;
+        font-size: 0.55rem;
+        color: #9B9B9B; }
+      .content .ul_list3 li:nth-of-type(2) i {
+        color: #ececec; }
+    .content .ul_list3 li:nth-of-type(3) div {
+      text-align: center;
+      color: #9B9B9B; }
+
+.footer {
+  width: 15rem;
+  height: 1.5rem;
+  background: #fed555;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+  border-radius: 0.065rem;
+  margin-top: 0.7rem; }
+  .footer p a {
+    color: #fff;
+    font-size: 0.65rem; }
+
+/*# sourceMappingURL=mes-3.css.map */

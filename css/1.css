@@ -1,0 +1,111 @@
+html{
+	font-size: 0.9rem;
+}
+body{
+	background-color:#F5F5F5 ;
+}
+.box{
+	width: 100%;
+	height: 2.67rem;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	background-color: #FFAC2C;
+	/*outline: 1px solid red;*/
+}
+.zuojian img{
+	width:0.4rem;
+	padding-left: 0.65rem;
+}
+.font-zi p {
+	color: white;
+	padding-left: 5rem;
+}
+.logo_box{
+	margin-top: 0.7rem;
+	width: 100%;
+	height: 2.8rem;
+	background-color: white;
+}
+.logo>img{
+	width: 13%;
+	padding-left: 0.35rem;
+	margin-top:0.3rem ;
+}
+.logo{
+	height: 2.8rem;
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+	color: #666666;
+}
+.zuo{
+	margin-left: 0.5rem ; 
+}
+.zuo img{
+	width:60px;
+	height: 20px;
+}
+.xiugai{
+	width: 100%;
+	height:1.9rem ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*outline: 1px solid red;*/
+	background-color: white;
+	margin-top:0.75rem;
+	border-bottom: 1px solid #ccc;
+}
+.xiugai p{
+	font-size: 14px;
+	padding-left:0.85rem ;
+}
+.xiugai img{
+	width: 0.4rem;
+	margin-right: 0.8rem;
+}
+
+.weixin{
+	width: 100%;
+	height: 1.9rem;
+	/*outline: 1px solid red;*/
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.weixin p{
+	font-size: 14px;
+	padding-left:0.85rem ;
+}
+.weixin img{
+	width: 0.4rem;
+	margin-right: 0.8rem;
+}
+.dengl{
+	width: 100%;
+	height:1.9rem;
+	/*outline: 1px solid red;*/
+	background-color: white;
+	margin-top: 1rem;
+}
+.dengl p{
+	color: #333;
+	text-align: center;
+	line-height: 1.9rem;
+	font-size: 16px;
+}
+.you {
+	display: flex;
+	align-items: center;
+	margin-left: 5rem;
+}
+.you p{
+	font-size: 0.5rem;
+	color: #FA5A2A;
+}
+.you img{
+	vertical-align: middle;
+	width: 10%;
+}

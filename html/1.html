@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="../css/1.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+</head>
+
+<body>
+	<div class="box">
+		<div class="zuojian">
+			<a href="../index.html"><img src="../img/zuojian_.png" alt="" /></a>
+		</div>
+		<!--这是左箭头-->
+		<div class="font-zi">
+			<p>系统设置</p>
+		</div>
+		<!--这是系统字-->
+	</div>
+	<!--这是外面的div-->
+	<div class="logo_box">
+		<div class="logo">
+		<img src="../img/logo_.png" alt="" />
+		<div class="zuo">
+		<p>*haokun</p>
+		<img src="../img/geren_.png" alt="" />
+		</div>
+		<div class="you">
+			<p>完善个人资料
+			<a href="grzl.html"><img src="../img/youjian.png" alt="" /></a></p>
+		</div>
+		<!--这是logo图-->
+		</div>
+	</div>
+	
+	<div class="xiugai">
+		<p><a href="#">修改登录密码</a></p>
+		<a href="2.html"><img src="../img/youjian.png" alt="" /></a>
+	</div>
+	<!--这是修改密码-->
+	<div class="weixin">
+		<p><a href="#">官方微信号</p></a>
+		<a href="7.html"><img src="../img/youjian.png" alt="" /></a>
+	</div>
+	<!--这是微信-->
+	<div class="dengl">
+		<a href="login.html"><p>退出登录</p></a>
+	</div>
+	<!--这是登录-->
+</body>
+
+<script type="text/javascript">
+	(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+</script>
+</html>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/zepto.min.js"></script>

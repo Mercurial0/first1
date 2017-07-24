@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <link rel="stylesheet" type="text/css" href="../css/grzl.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	    <script src="../js/jquery-3.1.1.min.js"></script>
+	    <script src="../js/rem.js"></script>
+	</head>
+	<body>
+		<header class="grzl_header">
+			<div class="one">
+			<a href="1.html">	<p class="fa fa-angle-left"></p></a>
+				<p>个人资料</p>
+			</div>
+			<div class="two">
+				<div class="two_a">
+				<img src="../img/grzl_logo.png">
+				<div class="user">
+					<p style="font-size:14px;">SZ1049</p>
+					<a href="#">
+						<span class="fa fa-user" style="font-size:14px;">个人用户</span>
+					</a>
+				</div>
+				</div>
+				<div class="btn">
+					<a href="#">未认证</a>
+				</div>
+			</div>
+		</header>
+	     
+	    <div class="text">
+	    	<p>
+	    		<a href="#">完善个人资料可享受更多闪注优惠</a>
+	    	</p>
+	    </div>
+	
+	    <ul class="list">
+	    	<li>
+	    		<div>
+	    		<p>Email</p>
+	    		<p class="col">
+	    			<span>未添加邮箱</span>
+	    			<span class="fa fa-angle-right"></span>
+	    		</p>
+	    		</div>
+	    	</li>
+	    	<li>
+	    		<div>
+	    		<p>联系人</p>
+	    		<p>
+	    			<span class="col">李庆旺</span>
+	    			<span class="fa fa-angle-right"></span>
+	    		</p>
+	    		</div>
+	    	</li>
+	    	<li>
+	    		<div>
+	    		<p>手机号码</p>
+	    		<p>
+	    			<span class="col">18652412512</span>
+	    			<span class="fa fa-angle-right"></span>
+	    		</p>
+	    		</div>
+	    	</li>
+	    	<li>
+	    		<div>
+	    		<p>身份证正面</p>
+	    		<p class="col">
+	    			<span>未上传身份证信息</span>
+	    			<span class="fa fa-angle-right"></span>
+	    		</p>
+	    		</div>
+	    	</li>
+	    	<li>
+	    		<div>
+	    		<p>身份证背面</p>
+	    		<p class="col">
+	    			<span>未上传身份证信息</span>
+	    			<span class="fa fa-angle-right"></span>
+	    		</p>
+	    		</div>
+	    	</li>
+	    </ul>
+	
+	    <div class="footer">
+	    	<input type="button" value="提交审核">
+	    </div>
+	    <div class="city"></div>
+	    <ul class="botm">
+	    	<li>
+	    		<a href="#"><p>拍照</p></a>
+	    	</li>
+	    	<li>
+	    		<a href="#"><p>从照片中选择</p></a>
+	    	</li>
+	    	<li>
+	    		<a href="#"><p class="cancel">取消</p></a>
+	    	</li>
+	    </ul>
+	    
+	    
+	    <script>
+	    	$(function(){
+	    		$(".footer input").click(function(){
+	    			$(".botm").toggle();
+	    			$(".city").toggle();
+	    		})
+	    		$(".cancel").click(function(){
+	    			$(".botm").hide();
+	    			$(".city").hide();
+	    		})
+	    	})
+	    </script>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/mes-3.css" />
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+		<script>
+			(function(win, doc) {
+				//浏览器缩放时
+				win.onresize = function() {
+					change();
+				};
+				change();
+
+				function change() {
+					//320  20px 
+					//414  20px
+					var oFs = doc.documentElement.clientWidth / (320 / 20); //320/20=16rem
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize = oFs + 'px';
+				}
+			})(window, document);
+		</script>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>
+					<a href="message-2.html"><i class="fa fa-angle-left"></i></a>
+				</li>
+				<li>
+				<span>	新增应用 </span>
+				</li>
+				<li>
+				</li>
+			</ul>
+			<div>
+				<img src="../img/li.png" alt="" />
+			</div>
+		</header>
+		
+		<div class="content">
+			<ul class="ul_list1">
+				<li>
+					<p>应用信息</p>
+				</li>
+				<li>
+					<p><font color="#f94d43">*</font>接口密码</p>
+					<p><input type="text" placeholder="SDK或者接口密码"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+				<li>
+					<p><font color="#f94d43">*</font>通信密钥</p>
+					<p><input type="text" placeholder="SDK或者接口通信加解密密钥"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+			</ul>
+			<ul class="ul_list2">
+				<li>
+					<p>APP信息</p>
+				</li>
+				<li>
+					<p>名称</p>
+					<p><input type="text" placeholder="APP的名称"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+				<li>
+					<p>包名</p>
+					<p><input type="text" placeholder="APP的真实包名"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+				<li>
+					<p>LOGO文件</p>
+					<p><input type="text" placeholder="图片类型:jpg、png 大小:1M"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+				<li>
+					<p>APP截图</p>
+					<p><input type="text" placeholder="图片类型:jpg、png 大小:1M"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+			</ul>
+			<ul class="ul_list3">
+				<li>
+						<span>H5/web信息</span>
+						<span>用户注册时发送的短信内容</span>
+				</li>
+				<li>
+					<p>短信内容</p>
+					<p><input type="text" placeholder="长度不得超过20个字" id="text1"/><a href="#"><i class="fa fa-chevron-right"></i></a></p>
+				</li>
+				<li>
+					<div id="div_cont"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+		<a href="messag.html">	<p>提交</p></a>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/dxyz.js"></script>
+</html>

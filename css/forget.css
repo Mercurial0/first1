@@ -1,0 +1,96 @@
+.forget_head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 5.4rem; }
+  .forget_head a {
+    position: absolute;
+    top: 1.425rem;
+    left: 0.625rem; }
+    .forget_head a img {
+      width: 0.375rem;
+      height: 0.75rem; }
+  .forget_head p {
+    font-size: 0.75rem;
+    padding-top: 1.425rem; }
+
+.forget_content {
+  padding: 0rem 0.725rem; }
+  .forget_content .forget_text {
+    margin-bottom: 2.25rem;
+    font-size: 0.75rem; }
+  .forget_content .forget_num {
+    position: relative; }
+    .forget_content .forget_num input {
+      padding: 0.825rem 5rem 0.825rem 0.95rem;
+      border-bottom: 0.025rem solid #ffe497; }
+    .forget_content .forget_num .img_one {
+      width: 0.55rem;
+      height: 0.775rem;
+      position: absolute;
+      left: 0;
+      bottom: 0.85rem; }
+    .forget_content .forget_num .img_two {
+      width: 0.6rem;
+      height: 0.6rem;
+      position: absolute;
+      bottom: 0.85rem;
+      right: 0.35rem; }
+  .forget_content .forget_an {
+    margin-top: 1.5rem; }
+    .forget_content .forget_an input {
+      width: 14.5rem;
+      height: 2.175rem;
+      background-color: #ffc830;
+      border-radius: 1.1rem;
+      color: #fff; }
+  .forget_content .meng {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%; }
+  .forget_content .tan {
+    display: none;
+    width: 11.2rem;
+    position: absolute;
+    top: 41%;
+    left: 15%;
+    border-radius: 1.2rem;
+    background-color: #fff; }
+    .forget_content .tan .tet {
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: bold;
+      padding: 0.675rem 0rem; }
+    .forget_content .tan span {
+      text-align: center;
+      display: block;
+      margin-bottom: 0.35rem; }
+    .forget_content .tan .number {
+      width: 100%;
+      height: 1.625rem;
+      text-align: center; }
+      .forget_content .tan .number #num_num {
+        width: 100%;
+        text-align: center; }
+    .forget_content .tan div {
+      width: 100%;
+      display: flex; }
+      .forget_content .tan div input {
+        background-color: #ffd974;
+        height: 1.625rem;
+        width: 100%;
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: bold; }
+      .forget_content .tan div input:nth-child(1) {
+        border-radius: 0rem 0rem 0rem 1.2rem; }
+      .forget_content .tan div a {
+        width: 100%; }
+      .forget_content .tan div #forget_btn {
+        border-radius: 0rem 0rem 1.2rem 0rem; }
+
+/*# sourceMappingURL=forget.css.map */

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="../css/7.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+</head>
+<body>
+	<div class="box">
+		<div class="zuojian">
+			<a href="1.html"><img src="../img/zuojian_.png" alt="" /></a>
+		</div>
+		<!--这是左箭头-->
+		<div class="font-zi">
+			<p>官方二维码</p>
+		</div>
+		<!--这是系统字-->
+	</div>
+	<!--这是外面的div-->
+	<div class="wz">
+		<p>更多闪注实时动态，请关注微信公众号</p>
+	</div>
+	<!--这是文字-->
+	<div class="wang">
+		<p>官方微信公众号:<span>闪注PLUS</span></p>
+	</div>
+	<!--这是官方-->
+	<div class="tu">
+		<img src="../img/tutu.png" alt="" />
+	</div>
+	<!--这是图-->
+	<div class="weixin">
+		<img src="../img/wixin.png" alt="" />
+	</div>
+	<!--这是微信-->
+</body>
+</html>
+<script type="text/javascript">
+	(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+</script>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/zepto.min.js"></script>

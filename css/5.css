@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #F5F5F5;
+}
+.header{
+	width: 100%;
+	height: 2.76rem;
+	 background-color: #FFAC2C;
+	 display: flex;
+	 align-items: center;
+}.header img{
+	width:7%;
+	margin-left: 0.5rem;
+	margin-right: 4rem;
+}
+.header p{
+	color: #F5F5F5;
+}
+.sj{
+	width: 100%;
+	height:6rem;
+	/*background-color: red;*/
+	text-align: center;
+	overflow: hidden;
+	}
+.sj p:nth-of-type(1){
+	color: #CCCCCC;
+	font-size: 0.8rem;
+	margin-top: 1rem;
+	margin-bottom: 0.8rem;
+}
+.sj p:nth-of-type(2){
+	font-size: 25px;
+}
+
+
+.fasong{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+	/*outline: 1px solid red;*/
+	background-color: white;
+}
+.fasong img:nth-of-type(1){
+	width: 17px;
+	height: 20px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	
+	}.fasong img:nth-of-type(2){
+	width: 25px;
+	height: 16px;
+	margin-left: 3.5rem;
+	
+	}
+	input{
+		border: none;
+	}
+.fasong p{
+	width: 5rem;
+	height: 55%;
+	font-size: 0.8rem;
+	color: #666666;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#FA5A2A;
+	border-radius: 3px;
+	color: white;
+}
+.denglu{
+	width: 95%;
+	height: 1.6rem;
+	background-color: #FED555;
+	/*outline: 1px solid red;*/
+	border-radius: 5px;
+	margin-top: 0.9rem;
+	margin-left: 0.4rem;
+}
+.denglu p{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.6rem;
+}

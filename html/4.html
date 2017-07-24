@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="../css/4.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+</head>
+
+<body>
+	<div class="box">
+		<div class="zuojian">
+			<a href="../index.html"><img src="../img/zuojian_.png" alt="" /></a>
+		</div>
+		<!--这是左箭头-->
+		<div class="font-zi">
+			<p>修改登录密码</p>
+		</div>
+		<!--这是系统字---->
+	</div>
+	
+	<div class="wz">
+		<p>请输入原登录密码身份验证</p>
+	</div>
+	<!--这是文字-->
+	
+	<div class="suotou">
+		<div class="suotou1">
+			<img src="../img/suotou.png" alt="" />
+			<input type="password" name="" id="" value="" placeholder="请输入原登录密码" />
+		</div>
+		<!--这是锁头1-->
+	</div>
+	<!--这是锁头-->
+	
+	<div class="denglu">
+		<a href="6.html"><p>确定</p></a>
+	</div>
+	<!--这是登录-->
+</body>
+
+<script type="text/javascript">
+	(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);
+	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	})(window,document);
+</script>
+</html>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/zepto.min.js"></script>

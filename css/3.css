@@ -1,0 +1,72 @@
+html{
+	font-size: 0.9rem;
+}
+body{
+	background-color:#F5F5F5 ;
+}
+.box{
+	width: 100%;
+	height: 2.67rem;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	background-color: #FFAC2C;
+	/*outline: 1px solid red;*/
+}
+.zuojian img{
+	width:0.4rem;
+	padding-left: 0.65rem;
+}
+.font-zi p {
+	color: white;
+	padding-left: 5rem;
+}
+.wz{
+	width: 100%;
+	height: 1.8rem;
+	/*outline: 1px  solid red;*/
+}
+.wz p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 1.8rem;
+	padding-left: 0.8rem;
+}
+.yanzheng{
+	width: 100%;
+	height:1.9rem ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*outline: 1px solid red;*/
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+}
+.yanzheng p{
+	font-size: 14px;
+	padding-left:0.85rem ;
+	color: #666666;
+}
+.yanzheng img{
+	width: 0.4rem;
+	margin-right: 0.5rem;
+}
+
+.yanzheng1{
+	width: 100%;
+	height: 1.9rem;
+	/*outline: 1px solid red;*/
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.yanzheng1 p{
+	font-size: 14px;
+	padding-left:0.85rem ;
+	color: #666666;
+}
+.yanzheng1 img{
+	width: 0.4rem;
+	margin-right: 0.5rem;
+}

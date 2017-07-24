@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/forget_last.css"/>
+	<title></title>
+	</head>
+	<body>
+		 
+		<div class="last_head">
+			<a href="forget.html"><img src="../img/left_03.png"/></a>
+			<p>忘记密码</p>
+		</div>
+		<div class="last_content">
+			<div class="last_text">
+				请输入您收到的验证码
+			</div>
+			<div class="last_num">
+				<input type="text" placeholder="验证码" id="last_num"/>
+				<img src="../img/xinxi_03.png" class="img_one"/>
+				<div><p class="time">60</p>s</div>
+			</div>
+			<div class="last_an" id="last_but">
+				<a href="forget_password.html"><input type="button"  value="下一步" disabled/></a>
+			</div>
+		</div>
+		
+	</body>
+<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+
+	//浏览器缩放时
+	window.onresize=function(){
+		change();	
+	};
+	
+	change();
+	function change(){
+		var oFs=document.documentElement.clientWidth/(320/20);
+
+		//设置根目录字体大小
+		document.documentElement.style.fontSize=oFs+'px';	
+	}
+	var time = null;
+	time = setInterval(fn,1000)
+	var meizhi = 60;
+	function fn(){
+		meizhi--;
+		if (meizhi==0) {
+			clearInterval(time);
+		}
+		$('.time').text(meizhi)
+	}
+	$("#last_num").keyup(function(){
+			if ($(".last_num input").val()!="") {
+				console.log(11)
+				$(".last_an input").attr("disabled",false)
+			}else{
+				console.log(222)
+				$(".last_an input").attr("disabled",true)
+			}
+	})
+
+
+</script>
+</html>

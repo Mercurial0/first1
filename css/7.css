@@ -1,0 +1,72 @@
+html{
+	font-size: 0.9rem;
+}
+body{
+	background-color:white ;
+}
+.box{
+	width: 100%;
+	height: 2.67rem;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	background-color: #FFAC2C;
+	/*outline: 1px solid red;*/
+}
+.zuojian img{
+	width:0.4rem;
+	padding-left: 0.65rem;
+}
+.font-zi p {
+	color: white;
+	padding-left: 5rem;
+}
+.wz{
+	width: 100%;
+	height: 2.5rem;
+	/*outline: 1px solid red;*/
+	background-color: #F5F5F5;
+}
+.wz p{
+	font-size: 13px;
+	color: #666666;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.wang{
+	width: 100%;
+	height: 2.75rem;
+	background-color: white;
+	/*outline: 1px solid red;*/
+}
+.wang span{
+	color:#FA5A2A;
+	line-height: 2.5rem;
+	font-size: 1rem;
+}
+.wang p{
+	font-size: 0.8rem;
+	margin-left:1rem;
+	color: #666666;
+}
+.tu{
+	width: 100%;
+	height: 4rem;
+	background-color: white;
+}
+.tu img{
+	width: 95%;
+	margin-left: 0.5rem;
+}
+.weixin{
+	width: 100%;
+	height: 12rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.weixin img{
+	width:50%;
+	
+}

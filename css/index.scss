@@ -1,0 +1,138 @@
+@charset"utf-8";
+html{
+    box-sizing: border-box;
+    display: flex;
+    font-size: 0.9rem;
+}
+body{
+    width: 100%;
+    background: #F5F5F5;
+}
+.header{
+    width: 100%;
+    background: #FFAB26;
+    padding-top: 1.8rem;
+}
+.head{
+padding-top: 0.625rem;
+text-align: center;
+}
+.hea{
+    text-align: center;
+    
+   img{
+       width: 4rem;
+   
+       
+   }
+}
+.yonghu{
+    color: white;
+    font-size: 0.4rem;
+    padding-bottom:0.625rem ;
+    span{
+        img{
+            width: 2.7rem;
+             padding-left: 0.625rem;
+        }
+    }
+}
+content{
+}
+.yingyong{     
+  background: white;
+      ul{  border-bottom: 1px solid #ECECEC;
+        padding-top: 0.75rem;
+        li{
+            font-size:0.5rem ;
+            color: #D1D1D1;           
+            padding:0 0.6rem ;
+            img{
+            width:8.25rem ;
+            padding-top: 0.25rem;
+        }
+        }
+    }
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    padding-top:0.9rem ;
+    span{
+        color: #F95C05;
+        font-size: 1.5rem;
+    }
+}
+.xiaoxi{
+    width: 100%;
+    background: white;
+    border-top: 1px solid #ECECEC;
+    margin-top: 0.7rem;
+    .ul1{
+        display: flex;
+        line-height: 2rem;
+        li{
+            img{
+                width: 1.1rem;
+            }
+        }
+    }
+}
+.li1{
+    height: 1.9rem;
+    width: 25%;
+    text-align: center;
+  
+}
+.li2{
+    padding-right: 0.8rem;
+    width: 75%;
+     border-bottom: 1px solid #ECECEC;
+}
+.ul2{   
+     height: 1.9rem; 
+    line-height: 1.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+.zhang{
+    color: #FC834A;
+    font-size: 0.5rem;
+    span{
+        font-size: 0.75rem;
+    }    
+}
+.cc{
+    font-size:0.75rem ;
+}
+.foot{
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top:0.65rem ;
+    height: 1.85rem;
+   background: white;
+}
+.left{
+   width: 25%;
+   text-align: center;
+   line-height: 1.9rem;
+   
+    img{
+      width: 1.1rem;    
+     
+        } 
+}
+.right{
+    width: 75%;
+    font-size:0.75rem ; height: 1.9rem; 
+    line-height: 1.9rem;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0.8rem;
+    }
+}

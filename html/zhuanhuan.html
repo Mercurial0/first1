@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <link rel="stylesheet" type="text/css" href="../css/xiaofei.css"/>
+	    <script src="../js/zepto.min.js"></script>
+	    <script src="../js/rem.js"></script>
+	</head>
+	<body>
+		<div class="zhuanhuan_header">
+			<div><a href="xf1.html"><img src="../img/转1_03.png"></a></div>
+			<div><p>余额转换</p></div>
+			<div></div>
+		</div>
+		<div class="zhuanhuan_section1">
+			<div><img src="../img/yuan_03.png"></div>
+		</div>
+		<div class="zhuanhuan_section2">
+			<p>您仅可以将短信量转换为闪注两</p>
+		</div>
+		<div class="zhuan">
+		<div class="zhuanhuan_section3">
+			<p>当前短信账户余额为：100条</p>
+		</div>
+		<div class="zhuanhuan_section4">
+			<p>短信量</p>
+			<p>当前短信账户余额为：100条</p>
+		</div>	
+		<div class="zhuanhuan_section4">
+			<p>0</p>
+			<p></p>
+		</div>	
+		<div class="zhuanhuan_section5">
+			<p id="tan">余额转换</p>
+		</div>
+		</div>
+		<div class="zhuanyin">
+			<div class="zhuantan">
+				<p>余额转换成功</p>
+		<p id="hide"><a href="xf1.html">确定</a></p>
+				<p></p>
+			</div>
+		</div>
+		<script>
+			$(function(){
+				$(".zhuanyin").hide();
+				$("#tan").click(function(){
+				    $(".zhuanyin").toggle();
+				})
+				$("#hide").click(function(){
+				$(".zhuanyin").hide();
+				})
+			})
+		</script>
+	</body>
+</html>

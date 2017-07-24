@@ -1,0 +1,162 @@
+@charset "UTF-8";
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column;
+  overflow: hidden;
+  position: relative; }
+
+header {
+  width: 100%;
+  background: #FA5A2C; }
+  header .header_top {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    color: #FFFFFF;
+    line-height: 40px; }
+    header .header_top > a {
+      color: #FFFFFF; }
+      header .header_top > a > span {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        font-size: 27px;
+        padding: 0 10px; }
+    header .header_top > p {
+      text-align: center;
+      font-size: 20px; }
+      header .header_top > p > span {
+        font-size: 15px; }
+  header .zhuceliang {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    height: 7rem;
+    background: url(../images/注册量统计_03.png) no-repeat center center;
+    text-align: center;
+    color: #FFFFFF; }
+    header .zhuceliang > p:nth-child(1) {
+      padding-top: 2rem;
+      font-size: 14px;
+      padding-bottom: 0.2rem; }
+    header .zhuceliang > p:nth-child(2) {
+      padding-bottom: 0.8rem; }
+      header .zhuceliang > p:nth-child(2) > span {
+        font-size: 24px; }
+    header .zhuceliang > p:nth-child(3) {
+      font-size: 12px;
+      -webkit-transform: scale(0.8); }
+
+.content {
+  width: 100%;
+  overflow: auto; }
+  .content .xuanxiang {
+    width: 100%; }
+    .content .xuanxiang > ul {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      text-align: center;
+      line-height: 45px;
+      font-size: 15px;
+      background: #FFB900; }
+      .content .xuanxiang > ul > li {
+        flex-grow: 1; }
+        .content .xuanxiang > ul > li > span {
+          color: #FFDE9E; }
+      .content .xuanxiang > ul .one > span {
+        color: #FFFFFF;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #FFFFFF; }
+    .content .xuanxiang > div {
+      display: none; }
+    .content .xuanxiang > div:nth-child(2) {
+      width: 100%; }
+      .content .xuanxiang > div:nth-child(2) > ul > li {
+        padding: 20px 10px 0;
+        border-bottom: 1px solid #CCCCCC; }
+        .content .xuanxiang > div:nth-child(2) > ul > li > p {
+          padding-bottom: 10px;
+          font-size: 14px; }
+        .content .xuanxiang > div:nth-child(2) > ul > li > p:nth-child(1) {
+          font-size: 20px; }
+        .content .xuanxiang > div:nth-child(2) > ul > li > p:nth-child(2) > a {
+          border: 1px solid #FFB400;
+          border-radius: 10px;
+          padding: 2px 5px;
+          color: #FFB400; }
+        .content .xuanxiang > div:nth-child(2) > ul > li > p:nth-child(3) {
+          color: #999;
+          font-size: 13px; }
+      .content .xuanxiang > div:nth-child(2) > ul > li:nth-child(2) > p:nth-child(2) > a:nth-child(2) {
+        border: 1px solid #007AFF;
+        color: #007AFF; }
+      .content .xuanxiang > div:nth-child(2) > ul > li:nth-child(2) > p:nth-child(2) > a:nth-child(3) {
+        border: 1px solid #FF0000;
+        color: #FF0000; }
+      .content .xuanxiang > div:nth-child(2) > ul > li:nth-child(3) > p:nth-child(2) > a:nth-child(3) {
+        border: 1px solid #FF0000;
+        color: #FF0000; }
+    .content .xuanxiang > div:nth-child(3) {
+      text-align: center; }
+    .content .xuanxiang > div:nth-child(4) {
+      text-align: center; }
+    .content .xuanxiang .show {
+      display: block; }
+
+.tongji {
+  display: none;
+  width: 100%;
+  height: 33.35rem;
+  background: rgba(26, 26, 26, 0.4);
+  position: absolute;
+  left: 0;
+  top: 40px;
+  overflow: hidden; }
+  .tongji .tongji1 {
+    width: 100%;
+    background: #FFFFFF; }
+    .tongji .tongji1 .quan {
+      width: 100%;
+      padding: 35px 20px 0; }
+      .tongji .tongji1 .quan > span {
+        font-size: 14px;
+        padding: 10px 20px;
+        background: #FFAD2F;
+        color: #FFFFFF;
+        border-radius: 5px; }
+    .tongji .tongji1 .changj {
+      width: 100%;
+      padding-bottom: 20px;
+      position: relative; }
+      .tongji .tongji1 .changj > p {
+        padding: 20px 0;
+        text-align: center;
+        color: #999999; }
+      .tongji .tongji1 .changj > span {
+        font-size: 14px;
+        padding: 10px 20px;
+        background: #E0E0E0;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-left: 20px; }
+      .tongji .tongji1 .changj .chang_left {
+        position: absolute;
+        left: 20px;
+        top: 25px;
+        width: 6.5rem;
+        height: 1px;
+        border-bottom: 1px solid #CCCCCC; }
+      .tongji .tongji1 .changj .chang_right {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 6.5rem;
+        height: 1px;
+        border-bottom: 1px solid #CCCCCC; }
+
+/*# sourceMappingURL=zhuce.css.map */

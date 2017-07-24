@@ -1,0 +1,69 @@
+html{
+	font-size: 0.9rem;
+}
+body{
+	background-color:#F5F5F5 ;
+}
+.box{
+	width: 100%;
+	height: 2.67rem;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	background-color: #FFAC2C;
+	/*outline: 1px solid red;*/
+}
+.zuojian img{
+	width:0.4rem;
+	padding-left: 0.65rem;
+}
+.font-zi p {
+	color: white;
+	padding-left: 4rem;
+}
+.wz{
+	width: 100%;
+	height: 1.8rem;
+	/*outline: 1px  solid red;*/
+}
+.wz p{
+	font-size: 14px;
+	color: #CCCCCC;
+	line-height: 1.8rem;
+	padding-left: 0.8rem;
+}
+.suotou{
+	width: 100%;
+	height: 1.8rem;
+	display: flex;
+	align-items: center;
+	/*outline: 1px solid red;*/
+	background-color: white;
+}
+.suotou img:nth-of-type(1){
+	width: 17px;
+	height: 20px;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	
+	}.suotou img:nth-of-type(2){
+	width: 25px;
+	height: 16px;
+	margin-left: 3.5rem;
+	
+	}
+.denglu{
+	width: 95%;
+	height: 1.6rem;
+	background-color: #FED555;
+	/*outline: 1px solid red;*/
+	border-radius: 5px;
+	margin-top: 0.9rem;
+	margin-left: 0.4rem;
+}
+.denglu p{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.6rem;
+}

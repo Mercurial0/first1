@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/mes-2.css" />
+		<link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+		<script>
+			(function(win, doc) {
+				//浏览器缩放时
+				win.onresize = function() {
+					change();
+				};
+				change();
+
+				function change() {
+					//320  20px 
+					//414  20px
+					var oFs = doc.documentElement.clientWidth / (320 / 20); //320/20=16rem
+					//设置根目录字体大小
+					doc.documentElement.style.fontSize = oFs + 'px';
+				}
+			})(window, document);
+		</script>
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>
+					<a href="../index.html"><i class="fa fa-angle-left"></i></a>
+				</li>
+				<li>
+					<span>应用信息</span>
+				</li>
+				<li>
+					<a href="message-3.html">新增应用</a>
+				</li>
+			</ul>
+		</header>
+		<div class="content">
+			<ul class="content_1">
+				<li>
+					<div><img src="../img/niao.png" alt="" /></div>
+				</li>
+				<li>
+					<div>
+						<strong>开心消消乐</strong><span>【签名:消消乐】</span>
+					</div>
+					<div>
+						<p><a href="#">应用场景:APP、H5/web</a></p>
+					</div>
+				</li>
+			</ul>
+			<ul class="content_2">
+				<li class="list_1">
+					<span>应用名称 : </span><span><em>开心消消乐</em></span>
+				</li>
+				<li>
+					<span>通信钥匙 : </span><span>xxxxxx</span>
+				</li>
+				<li>
+					<span>有效时间 : </span><span>2016/7/1-2017/7/1</span>
+				</li>
+				<li class="list_2">
+					<span>应用场景 : </span><span>APP、H5/web</span>
+				</li>
+				<li class="list_3">
+					<span>闪注注册量 : </span><em>151</em><span>(人)</span>
+					<span class="xin">短信注册量 : </span><em>89</em><span>(人)</span>
+				</li>
+			</ul>
+			<ul class="content_3">
+				<li>
+					<div><img src="../img/xi.png" alt="" /></div>
+				</li>
+				<li>
+					<div>
+						<strong>大话西游</strong><span>【签名:大话西游】</span>
+					</div>
+					<div>
+						<p><a href="#">应用场景:APP、H5/web</a></p>
+					</div>
+				</li>
+			</ul>
+			<ul class="content_4">
+				<li>
+					<div><img src="../img/wang.png" alt="" /></div>
+				</li>
+				<li>
+					<div>
+						<strong>王者荣耀</strong><span>【签名:王者荣耀】</span>
+					</div>
+					<div>
+						<p><a href="#">应用场景:APP、H5/web</a></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

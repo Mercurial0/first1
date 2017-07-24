@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/recharge.css"/>
+	    <script src="../js/jquery-3.1.1.min.js"></script>
+	    <script src="../js/rem.js"></script>
+	</head>
+	<body>
+		<header class="cz_header">
+			<div>
+				<a href="xf1.html"><p class="fa fa-angle-left"></p></a>  
+				<p>充值</p>
+			</div>
+			<div><img src="../img/pic_03.png"></div>
+			<p class="txt">闪注目前只支持支付宝充值</p>
+		</header>
+		
+		<div class="text">
+	    	<p>
+	    		<a href="#">请选择一下充值项目进行充值</a>
+	    	</p>
+	    </div>
+	    
+	    <ul class='list'>
+	    	<li>
+	    		<div class="one">
+	    			<input type="radio">
+	    			<img src="../img/pic_07.png">
+	    			<p>闪注量充值</p>
+	    		</div>
+	    		<div class="two">
+	    			<span>五万条</span>
+	    			<span class="fa fa-sort-desc" id="btn1"></span>	    			
+	    		</div>	    		
+	    	</li>
+	    	<div class="xiala xiala1">
+	    		<p>第一条</p>
+	    		<p>第二条</p>
+	    		<p>...</p>
+	    	</div>
+	    	<li>
+	    		<div class="one">
+	    			<input type="radio">
+	    			<img src="../img/pic_10.png">
+	    			<p>短信量充值</p>
+	    		</div>
+	    		<div class="two">
+	    			<span>1000条</span>
+	    			<span class="fa fa fa-sort-desc" id="btn2"></span>
+	    		</div>
+	    	</li>
+	    	<div class="xiala xiala2">
+	    		<p>第一条</p>
+	    		<p>第二条</p>
+	    		<p>...</p>
+	    	</div>
+	    	<li>
+	    		<div class="one">
+	    			<input type="radio">
+	    			<img src="../img/pic_12.png">
+	    			<p>优惠套餐包A</p>
+	    		</div>
+	    		<div class="two">
+	    			<span>200万次闪注量</span>
+	    		</div>
+	    	</li>
+	    	<li>
+	    		<div class="one">
+	    			<input type="radio">
+	    			<img src="../img/pic_14.png">
+	    			<p>优惠套餐包B</p>
+	    		</div>
+	    		<div class="two">
+	    			<span>10万短信量+10万闪注量</span>
+	    		</div>
+	    	</li>
+	    </ul>
+	 
+	    <div class="art">
+	    	<p>您当前选择的产品项目价格为：500REB</p>
+	    </div>
+	    
+	    <div class="footer">
+	    	<a href="xinxi1.html"><input type="button" value="充值"></a>
+	    </div>
+	    
+	    <script>
+	    	$(function(){
+	    		$("#btn1").click(function(){
+	    			$(".xiala1").toggle();
+	    		})
+	    		$("#btn2").click(function(){
+	    			$(".xiala2").toggle();
+	    		})
+	    	})
+	    </script>
+	</body>
+</html>

@@ -1,0 +1,153 @@
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column;
+  overflow: hidden;
+  position: relative; }
+
+header {
+  width: 100%;
+  background: #FA5A2C; }
+  header .header_top {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    color: #FFFFFF;
+    line-height: 40px; }
+    header .header_top > a {
+      color: #FFFFFF; }
+      header .header_top > a > span {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        font-size: 27px;
+        padding: 0 10px; }
+    header .header_top > p {
+      text-align: center;
+      font-size: 20px; }
+      header .header_top > p > span {
+        font-size: 15px; }
+
+.content {
+  width: 100%;
+  overflow: auto; }
+  .content .xiaofei {
+    width: 100%; }
+    .content .xiaofei .xiao_top {
+      display: flex;
+      height: 30px;
+      background: #F5F5F5;
+      color: #666666;
+      font-size: 13px;
+      padding: 0 20px; }
+      .content .xiaofei .xiao_top > p {
+        line-height: 30px; }
+      .content .xiaofei .xiao_top > p:nth-child(1) {
+        flex-grow: 1; }
+    .content .xiaofei > ul {
+      width: 100%; }
+      .content .xiaofei > ul > li {
+        display: flex;
+        padding: 10px 20px;
+        border-bottom: 1px solid #CCCCCC; }
+        .content .xiaofei > ul > li .li_left {
+          width: 100%;
+          flex-grow: 1;
+          display: flex; }
+          .content .xiaofei > ul > li .li_left .left_a {
+            margin-top: 7px; }
+            .content .xiaofei > ul > li .li_left .left_a > span {
+              background: #FEAB2C;
+              color: #FFFFFF;
+              padding: 7px;
+              font-size: 20px;
+              text-align: center;
+              border-radius: 5px;
+              margin-right: 10px; }
+          .content .xiaofei > ul > li .li_left .left_b > p {
+            margin-bottom: 5px; font-size: 12px; }
+            .content .xiaofei > ul > li .li_left .left_b > p > span:nth-child(1) {
+              border-radius: 10px;
+              border: 1px solid #FFAC2C;
+              padding: 4px 5px;
+              color: #FFAC2C;
+              font-size: 12px;
+               }
+            .content .xiaofei > ul > li .li_left .left_b > p > span:nth-child(2) {
+              font-size: 15px; }
+        .content .xiaofei > ul > li > p {
+          padding-top: 20px;
+          font-size: 14px;
+          color: #008000; }
+      .content .xiaofei > ul > li:nth-child(2) .li_left .left_a > span {
+        background: #F9552B; }
+      .content .xiaofei > ul > li:nth-child(2) .li_left .left_b > p > span:nth-child(1) {
+        border: 1px solid #007AFF;
+        color: #007AFF; }
+      .content .xiaofei > ul > li:nth-child(2) > p {
+        color: #F9552B; }
+      .content .xiaofei > ul > li:nth-child(3) .li_left .left_a > span {
+        background: #F9552B; }
+      .content .xiaofei > ul > li:nth-child(3) > p {
+        color: #F9552B; }
+      .content .xiaofei > ul > li:nth-child(4) .li_left .left_b > p > span:nth-child(1) {
+        border: 1px solid #AE81FF;
+        color: #AE81FF; }
+
+.tongji {
+  display: none;
+  width: 100%;
+  height: 33.35rem;
+  background: rgba(26, 26, 26, 0.4);
+  position: absolute;
+  left: 0;
+  top: 40px;
+  overflow: hidden; }
+  .tongji .tongji1 {
+    width: 100%;
+    background: #FFFFFF; }
+    .tongji .tongji1 .quan {
+      width: 100%;
+      padding: 1.75rem 1rem 0; }
+      .tongji .tongji1 .quan > span {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+        background: #FFAD2F;
+        color: #FFFFFF;
+        border-radius: 5px; }
+    .tongji .tongji1 .changj {
+      width: 100%;
+      padding-bottom: 1rem;
+      position: relative; }
+      .tongji .tongji1 .changj > p {
+        padding: 1rem 0;
+        text-align: center;
+        color: #999999; }
+      .tongji .tongji1 .changj > span {
+        width: 33.3%;
+        font-size: 14px;
+        padding: 0.3rem 0.7rem;
+        background: #E0E0E0;
+        border-radius: 5px;
+        margin-right: 0.5rem; }
+      .tongji .tongji1 .changj > span:nth-child(4) {
+        margin-left: 1rem; }
+      .tongji .tongji1 .changj .chang_left {
+        position: absolute;
+        left: 1rem;
+        top: 1.25rem;
+        width: 6.5rem;
+        height: 1px;
+        border-bottom: 1px solid #CCCCCC; }
+      .tongji .tongji1 .changj .chang_right {
+        position: absolute;
+        right: 1rem;
+        top: 1.25rem;
+        width: 6.5rem;
+        height: 1px;
+        border-bottom: 1px solid #CCCCCC; }
+
+/*# sourceMappingURL=zhuce.css.map */
